@@ -1,0 +1,104 @@
+
+div{
+    border-radius: 5px;
+}
+
+#header
+{
+    
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#profile {
+    float:left;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+#logo {
+    float:right;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+
+
+
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+
+    
+    
+h3
+{
+    text-decoration: underline;
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+
+#heading
+{
+    font-weight:bold;
+    }
