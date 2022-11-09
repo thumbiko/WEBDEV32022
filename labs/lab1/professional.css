@@ -1,1 +1,122 @@
 
+body {
+    margin: 2.2rem
+}
+
+/*
+body {
+	    text-align: center;		
+	    color: #04080b;
+	    width: 100%;
+	    height: 40px;
+	    position: absolute;
+	    z-index: 2;
+	    font: 18px 'Lato', Arial, sans-serif;
+	    margin: 0;
+	    padding: 16px 0 0;
+        top: -4px;
+        bottom: 10px;
+	    border-top: 1px solid #403F44;
+	    border-bottom: 1px solid #403F44;
+	}
+    */
+
+#profile {
+    float:left;
+    width: 100px;
+    border-radius: 40%;
+  }
+
+#logo {
+    float:right;
+    width: 170px;
+    border-radius: 50%;
+
+    
+  }
+	
+
+h3 {
+    font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	color: #124b32;
+		font-size: 24px;
+	}
+
+a:focus { 
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+	li { 
+		padding-left: 1em; 
+		text-indent: -.7em;
+	}
+	li:before {
+		content: "• ";
+		color: #837c9a;
+		font-size: 20px;
+		padding-right: 8px;
+	}
+
+
+	
+.header {
+		width: 699px;
+		border-left: 1px solid #403F44;
+		float: left;
+        height: 130px;
+		border-bottom: 1px solid #403F44;
+        border-left: none;
+	}
+
+.header a{
+		text-decoration: none;
+		padding: 0 20px;
+		border-left: 1px solid #e4e3e8;
+		font-size: 16px;
+		font-weight: 400;
+        font-family: 'Lato', Helvetica, sans-serif;
+	}
+
+.header a:hover {
+			color: #837c9a;
+		}
+
+
+	
+
+.footer{
+	font-style: italic;
+	margin-top: 20px;
+    width: 960px;
+	height: 60px;
+	border-top: 1px solid #403F44;
+	display: inline-block;
+}
+
+
+
+
+#name{
+    margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #999;
+  line-height: 50px
+}
+
+#email{min-width: 310px;
+    font: 16px Helvetica, Avernir, sans-serif;
+    line-height: 24px;
+    color: #000}
+#contact{min-width: 310px;
+    font: 16px Helvetica, Avernir, sans-serif;
+    line-height: 24px;
+    color: #000}
