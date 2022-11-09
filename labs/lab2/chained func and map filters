@@ -21,3 +21,8 @@ sex: "m",
 grades: [4, 3, 2]
 }
 ];
+
+const students = students.filter(students=> students.sex);
+students
+.filter(students => students.grades)
+.map(students => students.name);
