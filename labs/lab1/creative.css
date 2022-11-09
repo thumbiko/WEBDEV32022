@@ -1,152 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Short CV</title>
-    <link rel="stylesheet" href="/css/Creative.css">
-</head>
-<body>
 
-    <div id="header">
-        <p id="name">Thumbiko Nyasulu</p>
-                 <a href="mailto:thumbikonyasulu@ymail.com" target="_blank"><p id="email">thumbikonyasulu@ymail.com</p></a>
-                 <p id="contact">0858429584</p>
+div{
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-
-                 <a href="https://www.tudublin.ie/" alt="Linkedin" target="_blank" >
-                    <img id= "logo"src="/img/tudlogo.jpg">
-                </a>
-                <figure>
-                 <a href="https://www.linkedin.com/in/tivz/" target="_blank">
-                    <img id= "profile"src="/img/me1.jpeg"> 
-                    <figcaption>Click me to see my linkedn.</figcaption>
-                </a>
-                </figure>
-
-                <details>
-                    <summary>Personal Profile</summary>
-                    Currently a student in my final year of College enrolled in computer science infrastructure who is self motivated
-                    ,a team player who can work underpressure.I am available four days per week. I have a range of experience that has helped me to develop valuable 
-                skills such as clear communication, teamwork, adaptability and reliability 
-                </details>
-
-               
-                 
-             </div>
-             <div class="left">
-             </div>
-             <div class="right">
-
-                    <article>
-                        <h3>CV Highlights</h3>
-                    <ul>
-                        <li>Currently going through Udemy courses – NodeJs – Tech stacks</li>
-                        <li>Learnt multiple languages such as: Java,Python, JavaScript, HTML, CSS on Codecademy.com.</li>
-                        </ul>
-                    </article>
-
-
-                    <article>
-                        <h3>Work Experience </h3>
-                    <h4 id="company-name">Surecom Network and Telecommunications</h4>
-                    <p id="job-title"><strong>IT Support Intern</strong></p>
-                    <p id="job-responsibilities">Job Responsbilities</p>
-                    
-                    <ul>
-                        <li>Worked with stakeholders in different departments
-                            <ul>
-                                <li>Responded to their requests for service, troubleshoot problems and help develop
-                                    solutions.</li>
-                                <li>Performed minor repairs to equipment and arrange for other servicing needs.</li>
-                            </ul>
-                        </li>
-                        <li>Assisted with the investigation & development of new applications and systems</li>
-                        <li>Researched new tools/software to assist other business units</li>
-                        </ul>
-                    </article>
-
-
-                    <article><h3>Education</h3>
-                        <nav>
-
-
-
-
-                        </nav>
-                    
-                    </article>
-                    
-
-
-                    <article><h3>College Grades</h3>
-                    <table id="grades">
-                        <tr id="heading">
-                            <td>Education</td>
-                            <td>Grades</td>
-                            <td>Year</td>
-                        </tr>
-                        <tr>
-                            <td>Programming</td>
-                            <td>75%</td>
-                            <td>2019</td>
-                        </tr>
-                        <tr>
-                            <td>Mobile App</td>
-                            <td>72%</td>
-                            <td>2021</td>
-                        </tr>
-                        <tr>
-                            <td>Networking</td>
-                            <td>100%</td>
-                            <td>2021</td>
-                        </tr>
-                        <tr>
-                            <td>DevOPs</td>
-                            <td>80%</td>
-                            <td>2021</td>
-                        </tr>
-                        <tr>
-                            <td>maths</td>
-                            <td>80%</td>
-                            <td>2020</td>
-                        </tr>
-                    </table>
-                </article>
-               
-                    <article>
-                        <h3>Skills</h3>
-                    <ul>
-                        <li>Quick Learner</li>
-                        <li>Customer service</li>
-                        <li>Excellent with people skills</li>
-                    </ul>
-                </article>
-
-                    <article><h3>Certifications / Awards:</h3>
-                    <ul>
-                        <a href="https://www.credly.com/badges/42a1a8fa-d108-42ef-a977-e0424da5e656?source=linked_in_profile"><li>AWS Academy Graduate- AWS Academy Cloud Foundations</li></a>
-                        <a href="https://www.linkedin.com/learning/careers-in-web-design-and-development"><li>Careers in WEB DEsign and Development</li></a>
-                    </ul>
-                </article>
-
-                   
-             </div>
-
-
-<footer>
+#header
+{
     
-    <div>
-        © 2022 Copyright:
-        <a class="text-dark" href="https://github.com/thumbiko/WEBDEV32022/blob/main/PT%20CV.pdf">github</a>
-        <p>References available on request</p>
-      </div>
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#profile {
+    float:left;
+    width: 150px;
+    border-radius: 50%;
+  }
+
+#logo {
+    float:right;
+    width: 170px;
+    border-radius: 50%;
+  }
+
+#email{
+    float:right;
+    margin-right: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+
+#contact
+{
+    margin-left:45%;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #f0f0f0;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+
+
+
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
     
-</footer>   
-</body>
+    height: auto;
+    width: 99%;
+    background-color: #70aff8;
+    }
 
 
-</html>
+    
+    
+h3
+{
+    text-decoration: underline;
+    }
 
-https://uifresh.net/professional-html-resume-templates-free/
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+
+#grades
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #141413;
+    }
+
+
+#heading
+{
+    font-weight:bold;
+    }
+
+
+    footer {
+        clear: both;
+        position: relative;
+        height: 200px;
+        margin-top: -200px;
+    }
