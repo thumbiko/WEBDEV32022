@@ -77,7 +77,8 @@ a:hover {
     
 h3
 {
-    text-decoration: underline;
+    color: #2a5154;
+    text-decoration: none;
     }
 
 #job-responsibilities
@@ -112,3 +113,33 @@ td
         height: 200px;
         margin-top: -200px;
     }
+
+
+ul.leftnav{
+    list-style-type: none;
+    margin :0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+
+#mynavli a{
+    float: left;
+    display: block;
+    color: #668284;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+figcaption{
+    color: #668284;
+    text-decoration: none;
+}
+
+github{
+    color: #668284;
+    text-decoration: none;
+
+}
