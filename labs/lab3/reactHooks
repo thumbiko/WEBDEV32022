@@ -1,1 +1,10 @@
 
+import React from 'react';
+// This is a sample start
+export default class App extends React.Component {
+ render() {
+ return (
+ <UserAccess />
+ );
+ }
+}
